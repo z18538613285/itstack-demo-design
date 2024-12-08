@@ -87,6 +87,7 @@ public class GroupStructure implements Collection<Employee, Link> {
                 return employeeMap.get(link.getToId());
             }
 
+            // 给每个层级定义宽度遍历进度
             public int getCursorIdx(String key) {
                 int idx = 0;
                 if (keyMap.containsKey(key)) {

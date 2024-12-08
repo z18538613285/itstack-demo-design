@@ -12,8 +12,8 @@ import java.util.Date;
  */
 public class Level2AuthLink extends AuthLink {
 
-    private Date beginDate = f.parse("2020-06-11 00:00:00");
-    private Date endDate = f.parse("2020-06-20 23:59:59");
+    private Date beginDate = f.parse("2024-12-01 00:00:00");
+    private Date endDate = f.parse("2024-12-25 23:59:59");
 
     public Level2AuthLink(String levelUserId, String levelUserName) throws ParseException {
         super(levelUserId, levelUserName);
